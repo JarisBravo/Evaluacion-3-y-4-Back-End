@@ -1,0 +1,51 @@
+{% extends 'diseno.html' %}
+{% block title %}Inicio{% endblock title %}
+
+{% block body %}
+<body>
+  {% include 'encabezado.html' %}
+  <div class="text-center">
+      <br>
+      
+      <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+      <div class="card-header">Instrucciones</div>
+      <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">Instrucciones para el correcto uso de la pagina</p>
+      </div>
+      </div>
+      <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+      <div class="card-header">1</div>
+      <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">En la esquina superior derecha se encuentra Los apartados de Inscripciones, Instituciones, InscripcionesAPI, InstitucionesAPI </p>
+      </div>
+      </div>
+      <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+      <div class="card-header">2</div>
+      <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">Las ID estan en autofield Generan un id numerico Automatico</p>
+      </div>
+      </div>
+      <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+      <div class="card-header">3</div>
+      <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">Para ingresar a Incripciones se debe tener una institucion creada, al estar vinculadas </p>
+      </div>
+      </div>
+      <div class="card text-bg-danger mb-3" style="max-width: 18rem;">
+      <div class="card-header">4</div>
+      <div class="card-body">
+          <h5 class="card-title"></h5>
+          <p class="card-text">Para las Api (Inscripciones e Instituciones) Al ser accesos directos se debe volver atras con las flechas del navegador</p>
+      </div>
+      </div>
+
+  </div>
+
+
+</body>
+
+{% endblock body %}
